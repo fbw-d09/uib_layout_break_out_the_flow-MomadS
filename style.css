@@ -1,6 +1,56 @@
-html, body {
+html, body 
+{
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
+body
+{
+    position: relative;
+}
+
+.helloworld
+{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 0 auto;
+    position: relative;
+    top: 7px;
+    left: 5px;
+    text-align: center;
+}
+
+.box
+{
+    width: 200px;
+    height: 200px;
+}
+
+.box1
+{
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+
+.box2
+{
+    background-color:rgb(0, 255, 85);
+    position: absolute;
+    bottom: 10px;
+    left:10px;
+    
+}
+
+.box3
+{
+    background-color: rgb(0, 183, 255);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: -1;
+    /* mit z-index kann man den box hinter der letzte box bringen */
+}
